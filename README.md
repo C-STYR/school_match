@@ -36,11 +36,17 @@ THIS APPLICATION RUNS ON NODE v20
 
 4. I DID NOT optimize this algorithm for two reasons:
 
-- optimization is a LONG process, full of benchmarking and incremental change
+- optimization is a LONG process, full of benchmarking and incremental change and using huge datasets
 - optimization introduces significant complexity and makes for poor readability
 
 ### Design Choices, briefly (I will struggle not to write a novel)
 
-Validation and normalization are determined by external factors - how tightly coupled the app and source are, whether systems like `tRPC` are in place, etc. I included token functions but they are only a sketch.
+Validation and normalization are determined by external factors - how tightly coupled the app and source are, whether systems like `tRPC` are in place, etc. It's hard to see the source data coming from someplace other than a DB in a real-world implementation. As a consequence, I included token functions but they are only a sketch.
 
-It's hard to see the source data coming from someplace other than a DB in a real-world implementation. Validat
+The basic premise of the algorithm is to improve efficiency by creating a hashmap of open roles by location and then filtering against teachers without a location match. Although this requires an additional pass through the `teachers` array, I think it makes subsequent handling a bit more straightforward - but this is only a first-step sort of optimization. I chose location as the index for no other reason than it appealed to me - it could also have been by subject and grade. I would guess that more familiarity with the actual production systems would make that chose more obvious.
+
+Looping through the teachers array, the teacher's location is checked against the hashmap entry for that location. Teachers don't need to be compared against roles in any other location. This is a more efficient process because hashmap lookup is very fast, and also obviates the need for 1:1 comparison with all teachers/roles.
+
+The fast-lookup theme is continue in a choice of Map and Set data structures elsewhere, as well as the improved handling and security these DSs provide over POJOs and arrays. But the benefits of this efficiency are almost certainly not ascertainable unless dealing with very large datasets.
+
+I created unit tests for each function, providing good test coverage. I did not create integration tests due to time constraints. My testing strategy in production would have also included integration and E2E tests, depending on the existing infra and CI pipeline.

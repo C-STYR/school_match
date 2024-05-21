@@ -6,7 +6,6 @@ import {
   Subject,
   Grade,
   PrincipalsQueue,
-  TeacherId,
 } from "../../src/types/types";
 
 export const rawPrincipal = [
