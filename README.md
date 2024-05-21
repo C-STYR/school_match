@@ -16,7 +16,7 @@ Broadly, "The system should efficiently allocate teachers to principals' queues 
 
 ## How to install and run the application
 
-1. on the command line run ``
+1. on the command line run `git clone https://github.com/C-STYR/school_match.git` or the SSH version `git@github.com:C-STYR/school_match.git`
 2. cd into the `school_match` directory and run `npm i`
 3. the application is currently hard-coded to run against the `sample_data.json` file provided; process the data by running `npm run match`. The results will print to the console.
 
