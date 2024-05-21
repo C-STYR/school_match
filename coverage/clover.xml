@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1716321562006" clover="3.2.0">
+  <project timestamp="1716321562006" name="All files">
+    <metrics statements="93" coveredstatements="93" conditionals="43" coveredconditionals="41" methods="17" coveredmethods="17" elements="153" coveredelements="151" complexity="0" loc="93" ncloc="93" packages="4" files="12" classes="12"/>
+    <package name="src.types">
+      <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="types.ts" path="/Users/colestyron/code/nimble/school_match/src/types/types.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="2" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="10" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="7" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="13" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="7" type="stmt"/>
+        <line num="16" count="7" type="stmt"/>
+        <line num="17" count="7" type="stmt"/>
+        <line num="20" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="22" count="7" type="stmt"/>
+        <line num="23" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="49" coveredstatements="49" conditionals="32" coveredconditionals="30" methods="10" coveredmethods="10"/>
+      <file name="convertToExportFormat.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/convertToExportFormat.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+      <file name="generatePrincipalsMap.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/generatePrincipalsMap.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="20" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+      </file>
+      <file name="matchTeacherToRole.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/matchTeacherToRole.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="13" coveredconditionals="13" methods="1" coveredmethods="1"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="21" count="11" type="stmt"/>
+        <line num="24" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="11" type="cond" truecount="3" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="10" type="cond" truecount="5" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+      <file name="normalizeData.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/normalizeData.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="processData.ts" path="/Users/colestyron/code/nimble/school_match/src/utils/processData.ts">
+        <metrics statements="18" coveredstatements="18" conditionals="13" coveredconditionals="12" methods="1" coveredmethods="1"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="33" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="38" count="9" type="stmt"/>
+        <line num="39" count="9" type="cond" truecount="3" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="52" count="8" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.validators">
+      <metrics statements="16" coveredstatements="16" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="index.ts" path="/Users/colestyron/code/nimble/school_match/src/validators/index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="19" type="stmt"/>
+      </file>
+      <file name="validateInput.ts" path="/Users/colestyron/code/nimble/school_match/src/validators/validateInput.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="validateTeacher.ts" path="/Users/colestyron/code/nimble/school_match/src/validators/validateTeacher.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="12" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="test.data">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="testData.ts" path="/Users/colestyron/code/nimble/school_match/test/data/testData.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="46" count="4" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+      </file>
+      <file name="testSample.ts" path="/Users/colestyron/code/nimble/school_match/test/data/testSample.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
