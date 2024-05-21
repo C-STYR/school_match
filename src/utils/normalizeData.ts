@@ -8,6 +8,8 @@ export function normalizeData(data: any): NormalizedData {
   // possible examples:
   // remove teachers with invalid credentials
   // remove principals with empty openRoles array
+  // enforce field inclusion/exclusion
+  // enforce data shape
 
   return data as NormalizedData;
 }

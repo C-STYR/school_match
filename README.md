@@ -16,8 +16,10 @@ Broadly, "The system should efficiently allocate teachers to principals' queues 
 
 ### How to install and run the application
 
+THIS APPLICATION RUNS ON NODE v20
+
 1. on the command line run `git clone https://github.com/C-STYR/school_match.git` or the SSH version `git@github.com:C-STYR/school_match.git`
-2. cd into the `school_match` directory and run `npm i`
+2. `cd` into the `school_match` directory and run `npm i`
 3. the application is currently hard-coded to run against the `sample_data.json` file provided; process the data by running `npm run match`. The results will print to the console.
 
 ### How to run tests
@@ -36,3 +38,9 @@ Broadly, "The system should efficiently allocate teachers to principals' queues 
 
 - optimization is a LONG process, full of benchmarking and incremental change
 - optimization introduces significant complexity and makes for poor readability
+
+### Design Choices, briefly (I will struggle not to write a novel)
+
+Validation and normalization are determined by external factors - how tightly coupled the app and source are, whether systems like `tRPC` are in place, etc. I included token functions but they are only a sketch.
+
+It's hard to see the source data coming from someplace other than a DB in a real-world implementation. Validat

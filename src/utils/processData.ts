@@ -15,6 +15,7 @@ export interface Match {
 
 /*
 Creates the output queue in the form of a hashmap, indexed by Principal ID
+Also maintains the match count by teacher
 */
 export function processData({
   teachers,

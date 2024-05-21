@@ -1,5 +1,8 @@
 import { ExportFormatEntry, PrincipalsQueue } from "../types/types";
 
+/*
+converts the Map object to an array of arrays
+*/
 export function convertToExportFormat(
   queue: PrincipalsQueue,
 ): ExportFormatEntry[] {
